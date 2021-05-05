@@ -9,7 +9,7 @@
 ![GitHub Logo](/image/cv.png)
 
 # CL  cover letter
-![GitHub Logo](/image/cl.png)
+![GitHub Logo](/image/CL.png)
 
 
 
