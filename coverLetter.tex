@@ -1,0 +1,82 @@
+\documentclass{pf_cv}
+\pagenumbering{gobble}
+
+\def \varfoto{3cm} \def \vartabfoto{0.43}
+\newif\ifEN
+\newif\ifIT
+\ITtrue % switch to false if EN
+%\ENtrue % switch to false if IT
+\setlength{\parindent}{0pt}
+\DTLrawmap{à}{\'a}
+\DTLrawmap{è}{\'e}
+\DTLrawmap{ì}{\'i}
+\DTLrawmap{ò}{\'o}
+\DTLrawmap{ù}{\'u}
+\DTLloadrawdb[noheader, keys={thekey,thevalue}]{mydata}{data.dat}
+\newcommand{\getdata}[1]{\DTLfetch{mydata}{thekey}{#1}{thevalue}}
+\setlength{\tabcolsep}{2cm}
+\begin{document}
+
+\hspace*{-1.5cm}
+\begin{minipage}[t]{.35\textwidth}
+\raggedleft
+\includegraphics[width=\varfoto]{image/faceBW.png}\\
+\vspace*{.92cm}
+\CLblue{reEN}{reIT}\\
+\vspace*{.3cm}
+\CLcontact{mail}{\getdata{email}}\\
+\CLcontact{tel}{\getdata{tel}}\\
+\CLcontact{linke}{\getdata{linkedin}}\\
+\CLcontact{git}{\getdata{git}}\\
+\CLcontact{pos}{\getdata{add1}}\\
+\secdesc{\textbf{\getdata{add2}}}
+\hskip .7cm{ }
+
+\vskip 14cm{ }
+\CLcontact{att}{\ifEN Attached CV \fi \ifIT Allegato CV \fi}\\
+
+
+\end{minipage}
+\hfill
+\noindent
+\begin{minipage}[t]{.70\textwidth}
+\raggedright
+\includegraphics[width=6cm]{image/logo.png}
+
+\textcolor{cvblue}{\rule{11.5cm}{.12cm}}
+
+\vspace*{.48cm}
+\raggedleft
+\CLblue{toEN}{toIT}\\
+\vspace*{.4cm}
+\CLtextBF{to1}
+\CLtextBF{to2}
+\CLtextBF{to3}
+
+\vspace{.5cm}
+
+\raggedright
+\CLtextBF{data}
+\CLtextBF{oggetto}
+
+\vspace{.1cm}
+
+\CLblue{openFormEN}{openFormIT}\\
+
+\vspace{.8cm}
+
+\CLtext{par1}
+%\CLtext{par2}
+\CLtext{par3}
+\CLtext{par4}
+\CLtext{end}
+
+\CLblue{salutiEN}{salutiIT}\\
+\vspace{.4cm}
+ \secdesc{\textbf{\getdata{cognome}}} \secdesc{\textbf{\getdata{nome}}}\\%AA  %AA
+
+\vspace{-.35cm}
+\includegraphics[width=5cm]{image/signature.png}
+
+\end{minipage}
+\end{document}

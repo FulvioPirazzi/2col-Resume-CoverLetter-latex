@@ -1,0 +1,48 @@
+
+--general data--
+data = 30/04/2021
+
+--My data--
+reIT = RECAPITI
+reEN = CONTACT
+nome = Name
+cognome = surname
+email = name.surname@jdkkjd.com
+tel = +33 698 78 77
+linkedin = linkedin.com/in/name
+git = github.com/name
+add1 = street, 33
+add2 = 9988 Tokyo, Alaska
+
+
+-TO--
+toEN = TO
+toIT = SPETTABILE
+to1 = Resp. HR
+to2 = KTRNM 
+to3 = Roma
+
+--letter--
+oggetto = Candidatura posto libero RIF 3903903 
+
+openFormEN = Dear Sir,
+openFormIT = Gentile,
+
+par1 = Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae consequat ex. Nulla tempor tempus orci. Donec molestie est pellentesque, facilisis sapien sed, molestie enim. Praesent rhoncus libero vel tellus laoreet pellentesque. Curabitur sed velit imperdiet massa posuere maximus. Nunc vitae augue vel urna gravida sollicitudin. Suspendisse consectetur erat eget augue tempus ornare. Suspendisse non nibh sed leo egestas eleifend.
+
+par2 = \\ 
+
+
+ 
+par3 = In sagittis turpis felis, a viverra tellus ultricies quis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras quis nisl et ex accumsan tristique. Donec gravida pulvinar odio in egestas.
+
+par4 = Nulla eget ligula sit amet leo ultricies convallis. Mauris fermentum ligula magna, non mattis tortor mattis vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent condimentum et odio at facilisis. Aliquam pellentesque arcu eu enim luctus, sed mattis sapien semper.
+ 
+end = Saluti.
+salutiIT = Cordialmente
+salutiEN = Sincerely
+
+
+COMMENTI  TUTTI senza uguale
+
+Comment all whitout (space=space)
