@@ -6,16 +6,23 @@
 
 # CV  curriculum
 
-![GitHub Logo](/image/cv.png)
+![CV](/image/cv.png)
 
 # CL  cover letter
 
 Cover  letter can be  modified by editing  data.txt
 Datatool package will  extract dada from  the format   <name> 0 <data>
+  
+example:
+nome = Name
+Here setting  the name
 
+Comment are line without (space=spae)
 
-![GitHub Logo](/image/CL.png)
+cognome = surname
+email = name.surname@jdkkjd.com
+bla bla bla will be ignored
+tel = +33 698 78 77
+linkedin = linkedin.com/in/name
 
-
-
-
+![CL](/image/CL.png)
