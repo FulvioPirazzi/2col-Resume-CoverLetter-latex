@@ -6,10 +6,10 @@
 
 # CV  curriculum
 
-![GitHub Logo](/images/cv.png)
+![GitHub Logo](/image/cv.png)
 
 # CL  cover letter
-![GitHub Logo](/images/cl.png)
+![GitHub Logo](/image/cl.png)
 
 
 
